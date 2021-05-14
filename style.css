@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*fonts used*/
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.font-rubik{
+    font-family: 'Rubik', sans-serif;
+}
+
+/*header start*/
+#header {
+    height: 130px;
+    box-shadow: 0px -1px 10px 1px #80808063;
+}
+
+/*top bar*/
+#info-top{
+    background: #957ff6;
+    width:100%;
+    height: 45px;
+}
+
+.info-top-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed-top{
+    display: flex;
+}
+
+/*top bar right section*/
+.float-right{
+    width: 50%;
+    text-decoration: none;
+}
+
+.float-left {
+    width: 50%;
+    margin-right: 50rem;
+    margin-left: 26px;
+}
+
+/*top bar list*/
+.list {
+    list-style: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 0 4px;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+}
+
+/*fontawesome edit*/
+
+/*mail&phone*/
+.con {
+    margin: 11px -5px 0px 14px;
+    color: white;
+}
+/*social-links*/
+.sm{
+    color: white;
+}
+/*hr of top-row*/
+hr{
+    height: 35px;
+    opacity: 0.5;
+}
+
+
+/*navbar start*/
+.nav-bar{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    overflow: hidden;
+}
+
+.nav-bar li{
+    list-style: none;
+}
+
+.list-item  {
+    padding: 0px;
+    font-size: 22px;
+    margin: 22px;
+    color: #957ff6;
+    text-decoration: none;
+    font-weight: 800;
+    display: block;
+}
+
+.list-item:hover{
+    color: black;
+}
+
+/*Logo edit*/
+.logo {
+    margin-right: 440px;
+    height: 74px;
+    display: flex;
+}
+.logo-a {
+    font-size: 64px;
+    text-decoration: none;
+    color: #957ff6;
+}
+
+/*Section-1 styling */
+#sec-1{
+    display: flex;
+    height: 41em; 
+    background: url(main-img.jpg) no-repeat center center;
+    background-size: cover;  
+}
+
+/*section-1 image banner*/
+.container-image{
+    height: 100%;
+    width: 100%;
+}
+
+/*text on image*/
+.text-container {
+    position: absolute;
+    top: 245px;
+    font-size: 39px;
+    width: 34rem;
+    left: 75px;
+    color: white;
+}
+.img-p {
+    font-size: 20px;
+    color: white;
+    margin: 17px 0 40px 0px;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background: #957ff6;
+    border: white;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    z-index: 1;
+}
+
+
+.btn>a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 16px 40px;
+}
+
+.btn:hover{
+    background: #be1553;
+    color: white;
+}
+
+
+/*Section-2 start here*/
+#sec-2{
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.donation-types{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+.sec-2-heading {
+    font-weight: bold;
+    margin: -40px 0 63px 0;
+    font-size: 35px;
+}
+
+.donation-types-container {
+    
+    width: 338px;
+    height: 500px;
+    padding: 8px;
+    text-align: center;
+}
+
+.donation-types-container-img{
+    height: 300px;
+    margin: 15px;
+}
+
+.grid-img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.donation-types-container>p{
+    font-size: 17px;
+}
+
+
+.sec-2-btn{
+    margin-top: 35px;
+}
+
+
+/*section-3 */
+#sec-3 {
+    height: 35em;
+    background: #FCF8F9;
+    padding-top: 112px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 75px;
+    margin: 0 0 65px 0;
+}
+.aboutus-img {
+    width: 50%;
+    height: 24rem;
+    margin: 0 55px 0 0;
+}
+
+.aboutus-img >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.aboutus-text{
+    width: 50%;
+}
+
+.sec-3-heading{
+    font-size: 60px;
+    margin: 0 0 40px 0;
+}
+
+.para {
+    font-size: 24px;
+    margin: 22px 0;
+}
+
+/*sec-4 starts here*/
+#sec-4{
+    height: 37em;
+    padding-top: 112px;
+}
+
+.join-img {
+    margin: 0 0 0 50px;
+}
+
+
+
+/*footer*/
+
+#footer{
+    height: 38rem;
+    display: block;
+    position: relative;
+    background: #0b0a0f;
+}
+
+
+.footer-wrapper{
+    padding: 66px 0;
+}
+
+.footer-main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-area{
+    padding: 0 85px;
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    margin: 17px 0px;
+}
+
+.footer-logo>h1{
+    font-size: 60px;
+    color: #957ff6;
+}
+.footer-orginfo {
+    width: 200px;
+}
+.footer-orginfo>p{
+    font-size: 18px;
+    margin-top: 32px;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+
+.footer-title>h4{
+    font-size: 30px;
+    color: white;
+}
+.footer-title>ul>li{
+    font-size: 19px;
+    list-style: none;
+    margin: 19px 19px;
+    font-family: Cochin;
+    border-radius: 6px;
+}
+
+.footer-title>ul>li:hover{
+    background: #473c79;
+}
+
+.footer-links{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links:hover{
+    text-decoration: underline;
+}
+
+.footer-title>p{
+    font-size: 19px;
+    color: #ffffff;
+    margin: 30px 0;
+    font-family: Cochin;
+}
+
+.email-input {
+    border-radius: 21px;
+    height: 40px;
+    width: 300px;
+    padding: 2px 10px;
+    color: white;
+    background: transparent;
+    font-size: 16px;
+    border: 2px solid #ffffff7a;
+    outline: none;
+}
+
+.subscribe-btn {
+    position: absolute;
+    bottom: 339px;
+    right: 52px;
+    width: 75px;
+    height: 48px;
+    border-radius: 39px;
+    background: #957ff6;
+    outline: none;
+    border: transparent;
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+    font-family: Cochin;
+}
+
+.subscribe-btn:hover {
+    background: #ff5757;
+}
+
+.footer-bottom {
+    height: 27px;
+    margin-top: 150px;
+    background: black;
+}
+
+.footer-bottom-container{
+    padding: 3px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-center>p{
+    color: white;
+}
+
+
+/*Scroll back to top button*/
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: #FF6378;
+    color: white;
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #f01766;
+  }
